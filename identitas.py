@@ -1,11 +1,11 @@
 str1 = '='
 judul = 'Program Identitas Sederhana dengan Python'
 
-nama = input('Masukkan Nama kamu: ')
-nim = input('Masukkan NIM kamu: ')
-ttl = input('Masukkan Tempat Tanggal Lahir kamu: ')
-hobi = input('Masukkan Hobi kamu: ')
-jk = input('Masukkan Jenis Kelamin kamu: ')
+nama = ('Danendra Dzaki Andita')
+nim = ('2605060023')
+ttl = ('Magelang, 19 April 2008')
+hobi = ('main')
+jk = ('Laki-laki')
 
 print(str1*30)
 print(judul)
