@@ -1,5 +1,4 @@
 str1 = '='
-judul = 'Program Identitas Sederhana dengan Python'
 
 nama = ('Danendra Dzaki Andita')
 nim = ('2605060023')
