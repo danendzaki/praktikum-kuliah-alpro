@@ -7,7 +7,6 @@ hobi = ('main')
 jk = ('Laki-laki')
 
 print(str1*30)
-print(judul)
 print(str1*30)
 
 print('Nama   :', nama)
