@@ -1,25 +1,26 @@
-print('hello gesss')
+# Soal Nomor 1
+nama = "Danendra Dzaki Andita"
+umur = 18
+bb = 65.5
 
-data_integer = 1
-print("data : ", data_integer)
-print("- bertipe ", type(data_integer))
+print("Nama : ", nama)
+print("Umur : ", umur, "tahun")
+print("Berat Badan : ", bb, "kg")
 
-data_float = 1.5
-print("data : ", data_float)
-print("- bertipe ", type(data_float))
+# Soal Nomor 2
+angka_string = "123"
+angka_float = 45.67
+angka_integer = 89
 
-data_string = "ucup"
-print("data : ", data_string)
-print("- bertipe ", type(data_string))
+print(int(angka_string))
+print(int(angka_float))
+print(float(angka_integer))
+print(str(angka_integer))
 
-data_bool = True
-print("data : ", data_bool)
-print("- bertipe ", type(data_bool))
+usia = (int(input("Masukkan usiamu : ")))
+tb = (float(input("Masukkan tinggi badanmu : ")))
+nama = (str(input("Masukkan namamu : ")))
 
-data_int = 9
-data_float = float(data_int)
-data_str = str(data_int)
-data_bool = bool(data_int) 
-print("data = ", data_float, ",type = ", type(data_float))
-print("data = ", data_str, ",type = ", type(data_str))
-print("data = ", data_bool, ",type = ", type(data_bool))
+print("Nama : ", nama)
+print("Usia : ", usia, "tahun") 
+print("Tinggi Badan : ", tb, "cm")
