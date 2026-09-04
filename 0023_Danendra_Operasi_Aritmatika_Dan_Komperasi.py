@@ -11,7 +11,12 @@ print("Volume Balok = ", volume)
 keliling = 2 * (panjang + lebar)
 print("Keliling Persegi Panjang = ", keliling)
 
-print("apakah luasnya > 50?", bool(luas > 50))
-print("apakah volumenya == 480?", bool(volume == 480))
-
-
+if luas > 50:
+    print(bool(luas > 50), ", luas dari persegi lebih dari 50")
+else:
+    print(bool(luas > 50), ", luas dari persegi tidak lebih dari 50")
+    
+if volume == 480:
+    print(bool(volume == 480), ", volume dari balok sama dengan 480")
+else:
+    print(bool(volume == 480), ", volume dari balok tidak sama dengan 480")
