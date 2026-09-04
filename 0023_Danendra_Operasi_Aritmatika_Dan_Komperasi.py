@@ -8,8 +8,8 @@ print("Luas Permukaan Balok = ", luas)
 volume = panjang * lebar * tinggi
 print("Volume Balok = ", volume)
 
-keliling = 2 * (panjang + lebar)
-print("Keliling Persegi Panjang = ", keliling)
+keliling = 4 * (panjang + lebar + tinggi)
+print("Keliling Balok = ", keliling)
 
 if luas > 50:
     print(bool(luas > 50), ", luas dari permukaan balok lebih dari 50")
