@@ -17,6 +17,7 @@ print(int(angka_float))
 print(float(angka_integer))
 print(str(angka_integer))
 
+# Soal Nomor 3
 usia = (int(input("Masukkan usiamu : ")))
 tb = (float(input("Masukkan tinggi badanmu : ")))
 nama = (str(input("Masukkan namamu : ")))
