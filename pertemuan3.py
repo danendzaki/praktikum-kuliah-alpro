@@ -84,14 +84,12 @@ print(a,'!=',4,'=',hasil)
 hasil = b != 4
 print(b,'!=',4,'=',hasil)
 
-# ‘is’ sebagai komparasi obj identity (bukan literal)
-x = 5 # ini adalah assignment membuat object
+x = 5 
 y = 5
 hasil = x is y
 print('x is y =',hasil)
 
-# ‘is not’ sebagai komparasi obj identity (bukan literal)
-x = 5 # ini adalah assignment membuat object
+x = 5 
 y = 6
 hasil = x is not y
 print('x is not y =',hasil)
